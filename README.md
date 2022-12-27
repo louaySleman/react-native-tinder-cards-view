@@ -49,22 +49,23 @@ npm install –save react-native-fast-image
 
 ## Props
 
-| Props              | Params                         | isRequire | Default                  | Description                                                                                      | 
-|--------------------|--------------------------------|-----------|--------------------------|--------------------------------------------------------------------------------------------------|
-| data               | Array                          | Yes       |                          | For simplicity, data is a plain array. If you want to use something else, like an immutable list |
-| renderItem        | ({ item: any }) => JSX.Element | Yes       |                          | Function that returns a React element to display as Card.                                        |
-| onSwipeRight         | (item: any) => void            | No        | -                        | Function that fire when a card swiped in the right direction.                                    |
-| onSwipeLeft         | (item: any) => void            | No        | -                        | Function that fire when a card swiped in the left direction.                                     |
-| actionOffset | Number                         | No        | 100                      | The value that when the card swipe over it will fire an action.                                  |
-| cardWidth              | Number                         | No        | 96% from screen width    | Card width                                                                                       |
-| cardHeight  | Number                         | No        | 90% from screen height   | Card height                                                                                      |
-| renderRightElement             | () => JSX.Element              | No        | Tinder Nope Image        | Render right element                                                                             |
-| renderLeftElement             | () => JSX.Element              | No        | Tinder Like Image        | Render left element                                                                              |
+| Props              | Params                         | isRequire | Default                 | Description                                                                                      | 
+|--------------------|--------------------------------|-----------|-------------------------|--------------------------------------------------------------------------------------------------|
+| data               | Array                          | Yes       |                         | For simplicity, data is a plain array. If you want to use something else, like an immutable list |
+| renderItem        | ({ item: any }) => JSX.Element | Yes       |                         | Function that returns a React element to display as Card.                                        |
+| onSwipeRight         | (item: any) => void            | No        | -                       | Function that fire when a card swiped in the right direction.                                    |
+| onSwipeLeft         | (item: any) => void            | No        | -                       | Function that fire when a card swiped in the left direction.                                     |
+| actionOffset | Number                         | No        | 100                     | The value that when the card swipe over it will fire an action.                                  |
+| cardWidth              | Number                         | No        | 96% from screen width   | Card width                                                                                       |
+| cardHeight  | Number                         | No        | 90% from screen height  | Card height                                                                                      |
+| renderRightElement             | () => JSX.Element              | No        | Tinder Nope Image       | Render right element                                                                             |
+| renderLeftElement             | () => JSX.Element              | No        | Tinder Like Image       | Render left element                                                                              |
 | renderEmptyComponent             | () => JSX.Element              | No        | No more people text view | Render custom empty list component view                                                          |
-| animationDuration             | Number                         | No        | 200                      | Swipe animation duration                                                                         |
-| centerCards             | Boolean                        | No        | true                     | Center view                                                                                      |
-| cardsLeftToCallLoadMore             | Number                        | No        | 3                        | Number of cards left to call onEndReached function for pagination                                |
-| onEndReached             | () => void                        | No        | 3                        | On end reached function (Pagination support)                                                     |
+| animationDuration             | Number                         | No        | 200                     | Swipe animation duration                                                                         |
+| centerCards             | Boolean                        | No        | true                    | Center view                                                                                      |
+| cardsLeftToCallLoadMore             | Number                        | No        | 3                       | Number of cards left to call onEndReached function for pagination                                |
+| onEndReached             | () => void                        | No        |                         | On end reached function (Pagination support)                                                     |
+| onListIsEmpty             | () => void                        | No        |                         | An optional function fired when no more cards to show                                                     |
 
 
 ## Style props
