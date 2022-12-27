@@ -64,8 +64,8 @@ npm install –save react-native-fast-image
 | animationDuration             | Number                         | No        | 200                     | Swipe animation duration                                                                         |
 | centerCards             | Boolean                        | No        | true                    | Center view                                                                                      |
 | cardsLeftToCallLoadMore             | Number                        | No        | 3                       | Number of cards left to call onEndReached function for pagination                                |
-| onEndReached             | () => void                        | No        |                         | On end reached function (Pagination support)                                                     |
-| onListIsEmpty             | () => void                        | No        |                         | An optional function fired when no more cards to show                                                     |
+| onEndReached             | () => void                        | No        |           -              | On end reached function (Pagination support)                                                     |
+| onListIsEmpty             | () => void                        | No        |          -               | An optional function fired when no more cards to show                                                     |
 
 
 ## Style props
