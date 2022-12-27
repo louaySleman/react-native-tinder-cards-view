@@ -1,4 +1,4 @@
-# react-native-tinder-cards
+# react-native-tinder-cards-view
 A high performance, beautiful and fully customizable Animated swipe card list for React Native 
 without any third party library and support pagination.
 
