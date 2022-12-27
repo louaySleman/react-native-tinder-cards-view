@@ -44,7 +44,7 @@ npm install –save react-native-fast-image
 
 ## Demo
 <p>
-   <img width="200" src="https://raw.githubusercontent.com/louaySleman/react-native-accordion-list-view/master/examples/demo.gif" />
+   <img width="200" src="https://raw.githubusercontent.com/louaySleman/react-native-tinder-cards-view/master/demo/ios.gif" />
 </p>
 
 ## Props
@@ -84,6 +84,18 @@ You can use Reference to swipe cards programmatically.
 
 * [x] swipeCardRight
 * [x] swipeCardLeft
+
+### Swipe Card Right
+Swipe current card to the right programmatically using reference:
+```
+swiperRef.current?.swipeCardRight();
+```
+
+### Swipe Card Left
+Swipe current card to the left programmatically using reference:
+```
+swiperRef.current?.swipeCardLeft();
+```
 
 ### Example
 
@@ -160,5 +172,10 @@ const CardItem = ({image, name}: {image: string; name: string}) => {
 export default CardItem;
 ```
 
-For full working example you can check it on github from here.
+## Demo App
 
+For full working example you can check it on github from [here](https://github.com/louaySleman/react-native-tinder-cards-view/tree/main/example).
+
+## Credit
+
+This package created by [Louay Sleman](https://www.linkedin.com/in/louay-sleman-4495341a0/).
