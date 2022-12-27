@@ -1,0 +1,34 @@
+{
+  "name": "react-native-tinder-cards-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.tsx\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louaySleman/react-native-tinder-cards-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louaySleman/react-native-tinder-cards-view/issues"
+  },
+  "homepage": "https://github.com/louaySleman/react-native-tinder-cards-view#readme",
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "tslint": "^6.1.3",
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.6",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.9.4",
+    "react": "18.1.0",
+    "react-native": "0.70.6"
+  }
+}
